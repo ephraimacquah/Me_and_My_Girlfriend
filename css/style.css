@@ -1,0 +1,126 @@
+
+/*this section of code styles the main title of the page as well as spaces out the title image*/
+#Header{
+    background-color:rgb(182, 191, 191);
+    text-align:left;
+    padding: 70px;
+    font-family: 'Bubble Letters', cursive;
+    font-size: 24px;
+    letter-spacing: 10px; 
+    color: aliceblue; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family:'Courier New', Courier, monospace; 
+}
+
+#title_img{
+    margin-left: 10px;
+    width:auto;
+    height:350px;
+    position:absolute;
+    left: 80%;
+    top:3%
+}
+
+/*this section of code is to style the three links to different sections of the webpage*/
+a{
+    text-decoration: none;
+}
+
+.section {
+    padding: 10px 20px;
+    background-color: #5c5c5c;
+    color: aliceblue;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.section-label {
+    justify-content:space-around;
+    text-decoration: none;
+    text-align: left;
+}
+
+.section-header{
+    font-family: 'Bubble Letters', cursive;
+    font-size: 28px;
+    letter-spacing: 10px; 
+    color: rgb(71, 67, 67); 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    margin-top: 0%;
+}
+
+
+/*This section of code is to style the dividers I used between sections*/
+.divider{
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color:aliceblue;
+}
+
+/*This code styles the backstory and about us sections on the webpage*/
+#backstory {
+    background-color:aliceblue;
+    text-align: center;
+    padding: 5%;
+}
+
+#about-us{
+    background-color:aliceblue;
+    text-align: center;
+    padding: 5%;
+}
+
+/*This rule styles the heading of the events section of the webpage*/
+#events {
+    background-color:aliceblue;
+    padding: 5%;
+}
+
+/*This section of code styles the timeline to make it look like an actual timeline*/
+.event_img{
+    width:200px;
+    height:auto;
+}
+
+
+.timeline-header{
+    font-size: larger;
+}
+
+.events_timeline {
+    position: relative;
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#backstory-details{
+    text-align: center;
+}
+
+.event-item {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #f1f1f1;
+    border-left: 2px solid #333;
+}
+
+/*This rule is what I used to create the bullet points for each item of the timeline*/
+.event-item::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -6px;
+    transform: translateY(-50%);
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+}

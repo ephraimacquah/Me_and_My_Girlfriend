@@ -1,0 +1,153 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+File Created: 9/20/2023
+Page Description: My Webpage displays all about me and my girlfriend and how our relationship came to be.
+                  It has a general about us section, our backstory, and then a timeline of events with images.
+
+Ephraim Acquah, UMass Lowell Computer Science,
+Ephraim_Acquah@student.uml.edu
+Copyright (c) 2023 by Ephraim Acquah. All rights reserved.
+updated by Ephraim Acquah on September 26, 2023 at 9:04 PM
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Me and my Girlfriend</title>
+</head>
+<body>
+    <!-- This section of code is for the top header part with page name and links for each section of the webpage: about us, backstory,
+        events. I used a table to create the section link labels-->
+    <div id="Header">
+        <h1>Me and My Girlfriend</h1>
+        <img src="images/title_img.jpeg" id="title_img" alt="title image">
+
+        <nav>
+            <table class="section-label">
+                <tr>
+                    <td>
+                        <a href = "#about-us"><h4 class = "section">About Us</h4></a>
+                    </td>
+
+                    <td>
+                        <a href = "#backstory"><h4 class = "section">Backstory</h4></a>
+                    </td>
+
+                    <td>
+                        <a href = "#events"><h4 class = "section">Events</h4></a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </div>
+
+    <!--This section of code is for the About Us section, and it has a header to name the section and the actual content of the section
+        being general information about my girlfriend and I-->
+    <div id="about-us">
+        <h2 class ="section-header">About Us</h2>
+        <p>I, Ephraim Acquah, and my Girlfriend, Aliya Kaufman-Daniel, have been together for over a year and a half now, going on 
+           two years this coming March, and our relationship, through its ups and downs, has been nothing short of a blessing. We 
+           are both 20 years old, with Aliya being older than I by just over 4 months, but that doesn't stop us from acting as 
+           equal partners and best of friends. We're both from the DMV area, yet surprisingly enough we didn't run into each 
+           other until the second half of the '21-'22 school year in college. We got together in college and have tried our best 
+           to be the epitome of love for each other. Funnily enough, this is something that our peers have noticed, and we 
+           have a lot of friends and strangers who look fondly upon our relationship and wish us nothing but the best. We plan 
+           to one day get married, but of course take every step of our relationship one day at a time, not rushing anything. We 
+           both have support systems in place that help us move our relationship forward and achieve all the goals that we have 
+           in the future for our relationship. Overall, we're really just looking to make the most of the God-given opportunity 
+           we have to love each other.</p>
+    </div>
+
+    <!--This divider is used to seperate sections of the webpage; I thought the custom emoticon banner art was a cool touch to add 
+        and it's something that is a part of Aliya and I's relationship-->
+    <p class="divider">｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺｡･ﾟﾟ･･ﾟﾟ･｡♥*♡∞:｡.｡｡.｡:∞♡*♥₊✩₊‧˙⋆˚･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺</p>
+    
+    <!--This section of the webpage is a lot like the first, but it is instead about the backstory between Aliya and I's relationship-->
+    <div id="backstory">
+        <h2 class="section-header">Backstory</h2>
+        <p>Aliya and I first met online through Instagram back in December of 2021. The next month, early in January, I noticed 
+           that she had liked one of my Instagram posts. The post she liked was a very old one, my senior photos from high school
+           in fact. When I first saw it I didn't think much of it, I just let it be. On January 8th, I was in Boston with the basketball
+           team because we had a game against Boston University. After the game, I saw again the notification for her having liked my old
+           Instagram picture, and decided that I would send her a DM about it. So I did. The conversation went well, and we exchanged
+           Snapchat handles. For the next couple of weeks, we talked and got to know each other over Snapchat. We learned that we
+           lived in the same residence hall as well as talked about each other's backgrounds and interests, everything you could
+           think of when getting to know someone in a romantic way. Even though we were talking so much, the undertone of romance 
+           was just that. A slight undertone. It wasn't until later on in the month, January 20th that we hung out in person for the 
+           first time. The first time we spent time together was in her dorm. I came over in the evening and didn't leave until around 
+           1 am. During that time we had a really nice conversation, and I was able to get a glimpse into the subtle things that made 
+           Aliya different from others in my mind. She showed me the different collections she had, such as her artwork and stickers, 
+           and we got to know each other some more in person. Over the course of the next two weeks, we hung out one other time, and 
+           it went a lot like the first time. Then, on January 28th, we went to a party with both of our roommates, me with my roommates 
+           and her with her roommates. This day would be the day that would define us as a couple for the rest of time. From that 
+           day onwards we hung out almost every day and were more officially in the talking stage where it was clear that we liked 
+           each other. As we were in the talking stage, we hit a rocky stage and we also joined the Konpa team individually as 
+           something to try out. We eventually ended up paired, and dancing together has grown into something we both enjoy. It was 
+           what brought us out of this troubling time in our talking stage, and on March 7, 2022, I asked Aliya to be my girlfriend. 
+           Ever since then, we've done a lot of things together as we've grown in love, life, and relationship together.</p>
+    </div>
+
+    <!--another divider between webpage sections-->
+    <p class="divider">｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺｡･ﾟﾟ･･ﾟﾟ･｡♥*♡∞:｡.｡｡.｡:∞♡*♥₊✩₊‧˙⋆˚･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺</p>
+    
+    <!--This section of code utilizes divs to create a vertical timeline, and each item in the timeline has a header, image, small description and date-->
+    <div id="events">
+        <h2 class="section-header">Events</h2>
+        <div class="events_timeline">
+            <div class="event-item">
+                <h3 class="timeline-header">Will You be My Girlfriend?</h3>
+                <img src = "images/event1.jpeg" class="event_img" alt="event 1 image">
+                <p>This was where I asked Aliya to be my girlfriend. It was a rainy day and we were going on a small walk before we went to go watch a hockey game at TD Garden in Boston.</p>
+                <span>Date: March 7, 2022</span>
+            </div>
+            <div class="event-item">
+                <h3 class="timeline-header">Konpa Pt1</h3>
+                <img src = "images/event2.jpeg" class="event_img" alt="event 2 image">
+                <p>This was the first time Aliya and I had danced together in front of a crowd for the first time at Carribean Night, and it was an amazing time.</p>
+                <span>Date: March 21, 2022</span>
+            </div>
+            <div class="event-item">
+                <h3 class="timeline-header">Aliya's 20th Birthday</h3>
+                <img src = "images/event3.jpeg" class="event_img" alt="event 3 image">
+                <p>I took Aliya out for a special birthday dinner and surprised her with a handwritten note. It was a great time.</p>
+                <span>Date: October 1, 2022</span>
+            </div>
+            <div class="event-item">
+                <h3 class="timeline-header">Valentines Day Dinner</h3>
+                <img src = "images/event4.jpeg" class="event_img" alt="event 4 image">
+                <p>Aliya and I went out for Korean BBQ on Valentine's day for dinner and I had a surprise for her when we got back.</p>
+                <span>Date: February 14, 2023</span>
+            </div>
+            <div class="event-item">
+                <h3 class="timeline-header">Konpa Pt2</h3>
+                <img src = "images/event5.jpeg" class="event_img" alt="event 5 image">
+                <p>Once again at Caribbean Night, Aliya and I take the stage as a Konpa pair to perform in front of the crowd just like the year before.</p>
+                <span>Date: March 18, 2023</span>
+            </div>
+        </div>
+    </div>
+
+    <p class="divider">｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺｡･ﾟﾟ･･ﾟﾟ･｡♥*♡∞:｡.｡｡.｡:∞♡*♥₊✩₊‧˙⋆˚･:*:･ﾟ★,｡･:*:･ﾟ☆ ｡･:*:･ﾟ★,｡･:*:･ﾟ☆ ⋆｡°✩ ⋆⁺</p>
+
+    <!--this is the code for the html and css verification stickers-->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+    </p>
+    <p>
+        <a href="https://www.w3.org/QA/Tools/Icons">
+            <img style="border:0;width:88px;height:31px"
+                src="http://www.w3.org/Icons/valid-html401"
+                alt="Valid HTML!" />
+        </a>
+    </p>
+    
+</body>
+</html>
